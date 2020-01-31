@@ -4,6 +4,8 @@ import java.util.ArrayList;
 class Student {
 	private String first_name;
 	private String last_name;
+	private String address;
+	private String section;
 
 	public Student(final String first_name, final String last_name) {
 		this.first_name = ucfirst(first_name);
